@@ -43,28 +43,33 @@ div {
 .top-navigation {
     background-color: #FFF;
     position: fixed;
+    height: 97px;
     width: 100%;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+    margin: -8px;
+    padding: 0px;
+    padding-right: 10rem
 }
 .top-navigation > .content {
-    height: 4.000rem;
+    height: 4.300rem;
 }
 .top-navigation .logo {
     height: 4.000rem;
 }
 .top-navigation .links {
     float: center;
-    color: #5BA061;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
+    color: #503F33;
+    font-size: 1ls
+    .04rem;
+    margin-top: 2.3rem;
 }
 .top-navigation .links li {
     display: inline-block;
     margin-left: 1.563rem;
 }
 .top-navigation .links li.active {
-    color: #5BA061;
+    color: #503F33;
     font-weight: 500;
 }
 .top-navigation .links li:hover {
@@ -82,7 +87,7 @@ div {
 .introduction h1,
 .introduction h3 {
     color: white;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
 }
 .introduction h1 {
@@ -92,11 +97,13 @@ div {
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+    padding-left: .75rem;
 }
 .introduction .buttons {
     color: white;
-    text-align: center;
+    text-align: left;
     margin-top: 1.563rem;
+    padding-left: 1.90rem;
 }
 .introduction .half {
     width: 49%;
@@ -114,7 +121,7 @@ div {
 .cases .content {
     margin-top: 7.875rem;
     padding: none;
-    color: #5BA061;
+    color: #503F33;
     text-align: center;
 }
 .cases h2 {
@@ -208,7 +215,7 @@ button {
     font-size: 1.125rem;
 }
 button:hover {
-    background-color: #d9400e;
+    background-color: #483D3A;
     border-color: #cf3d0e;
     cursor: pointer;
 }
